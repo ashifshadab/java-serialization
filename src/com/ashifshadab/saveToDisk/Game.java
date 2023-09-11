@@ -1,15 +1,8 @@
 package com.ashifshadab.saveToDisk;
-
-import java.io.Serializable;
-
-/**
- * If We are going to persist object of that class which doesn't implements
- * Serializable interface then it will throw java.io.NotSerializableException:
- */
-public class Game  {
+public class Game {
 
     private int gameId;
-    private  String gameName;
+    private String gameName;
 
     public int getGameId() {
         return gameId;
